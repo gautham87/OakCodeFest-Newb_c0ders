@@ -166,3 +166,49 @@ nlu:
     - My favourite song is this
     - I really like this song called
     - I love this song called
+
+
+- intent: facts_are_interesting 
+  examples: |
+    - These facts are interesting 
+    - What are these facts 
+    - I like these facts
+    - nice facts
+    - where are these facts from? 
+    - source of these facts
+
+
+- intent: weather 
+  examples: |
+    - How is the weather?
+    - What do you think about the weather
+    - Is the weather good?
+    - Do you experience any weather?
+
+- intent: what_are_you_made_of
+  examples: | 
+    - What language are you made of?
+    - What are u made of?
+    - Which languages were used in your development?
+
+- intent: age
+  examples: |
+    - how old are you?
+    - what's your age
+    - your age
+    - age please
+    - tell me your age
+    - I want to know your age
+    - may I know your age
+    - are you old?
+    - you're young
+    - you're old
+    - how old?
+
+- intent: watch_yt
+  examples: |
+    - Do you watch youtube?
+    - Do you know what youtube is?
+    - Would you like to watch youtube?
+    - What do you say about youtube?
+
