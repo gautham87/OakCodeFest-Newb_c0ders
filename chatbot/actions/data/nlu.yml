@@ -89,3 +89,13 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    
+- intent: how_to_help_environment
+  examples: |
+    - how can I help the environment?
+    - Is there anyway I can help the environment?
+    - what do I do to help the environment?
+    - should I help the environment?
+    - tell me how to help the environment
+    - environment help
+    - information on how to help environment
