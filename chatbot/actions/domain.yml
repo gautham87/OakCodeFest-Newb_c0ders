@@ -8,6 +8,12 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - favourite_book
+  - book_response_question
+  - favourite_food
+  - food_response
+  - favourite_music
+  - music_reply
 
 actions:
   - action_hello_world
@@ -31,9 +37,26 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_favourite_book:
+  - text: "I dont really read books, but if i could then i would read 1984. What about you?"
+
+  utter_favourite_book_resp:
+  - text: "Oh, thats cool"
+
+  utter_favourite_food:
+  - text: "I love to eat chips with a dip of data, unfortunately it's the only kind of food I can eat."
+
+  utter_food_response:
+  - text: "Nice choice, I wish I could eat that as well."
+
+  utter_favourite_music:
+  - text: "Robots don't listen to music but I'd love to hear what you listen to."
+
+  utter_music_reply:
+  - text: "That's great, I really wish I could enjoy music like you humans do."
+
   
-  utter_how_to_help_environment:
-  - text: "https://oceanservice.noaa.gov/ocean/earthday.html"
 
 session_config:
   session_expiration_time: 60
