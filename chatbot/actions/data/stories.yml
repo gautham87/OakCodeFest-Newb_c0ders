@@ -37,3 +37,8 @@ stories:
   - intent: deny
   - action: utter_goodbye
   - action: action_hello_world
+  
+- story: how can I help the environment
+  steps:
+  - intent: how_to_help_environment
+  - action: utter_how_to_help_environment
