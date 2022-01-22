@@ -16,6 +16,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+ 
+
 
 - intent: goodbye
   examples: |
@@ -89,13 +91,78 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-    
-- intent: how_to_help_environment
+
+- intent : favourite_book
+  examples : |
+    - What is your favourite book?
+    - Do you have a favourite book?
+    - Which book would you like to read?
+    - If you had to read one book, which one would it be?
+    - Do you read books?
+    - Oi bot do you read books?
+    - Are books something that intrigue you?
+
+
+- intent : book_response_question
+  examples : | 
+    - I like to read this 
+    - I read these books
+    - This book fascinates me 
+    - I am interested in this book
+    - I prefer this book
+
+
+
+- intent: favourite_food
   examples: |
-    - how can I help the environment?
-    - Is there anyway I can help the environment?
-    - what do I do to help the environment?
-    - should I help the environment?
-    - tell me how to help the environment
-    - environment help
-    - information on how to help environment
+    - What food do you like?
+    - What food do robots eat?
+    - What kind of food do robots eat?
+    - Do you eat any food?
+    - What's your favourite food?
+    - Food you eat?
+
+- intent: food_response
+  examples: |
+    - I like this food
+    - I love to eat this
+    - I like to eat this
+    - My favourite food is
+    - this is delicious
+    - this is so yummy
+    - this tastes very good
+    - I am eating this right now
+
+- intent: favourite_music
+  examples: |
+    - What kind of music do you listen to?
+    - What is your favourite music?
+    - Which band do you like?
+    - Do you listen to music?
+    - Do robots listen to music?
+    - What kind of music do you prefer?
+    - What kind of music genre do you listen to?
+    - What music genre do you prefer?
+    - What is your favourite instrument?
+    - Do you listen to songs?
+    - What is your favourite song?
+    - What song do you like?
+    - Do robots listen to songs?
+
+- intent: music_reply
+  examples: |
+    - I love this band
+    - I like this kind of music
+    - I love this kind of music
+    - I prefer this music
+    - I like this music
+    - I listen to this music
+    - My favourite instrument is the piano
+    - My favourite instrument is the guitar
+    - My favourite instrument is the keyboard
+    - My favourite instrument is the drums
+    - I listen to this band 
+    - I generally listen to this music
+    - My favourite song is this
+    - I really like this song called
+    - I love this song called
