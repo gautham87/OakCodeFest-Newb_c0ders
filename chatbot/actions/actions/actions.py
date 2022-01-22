@@ -11,6 +11,7 @@ from typing import Any, Text, Dict, List
 #
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+# This variable contains the all the facts the chatbot will use
 Fact_list = ["The average North American uses 700 lbs. of paper a year. This equals approximately 465 trees per person, just for paper!", "A glass bottle will take 40,000 years to decompose if it’s not recycled.",
              "Recycling a single aluminium can will save enough electricity to power a TV for three hours.", "Recycling a single glass bottle will save enough energy to power a light bulb for four hours.",
              "The Earth’s surface is 70% water, but many people go without access to fresh water every day.", "Turning the faucet off when you’re brushing your teeth and taking quicker showers will use less water and leave more for others to use.",
