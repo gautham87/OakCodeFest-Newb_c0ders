@@ -11,7 +11,6 @@ stories:
   - action: utter_happy
   - action: action_hello_world
 
-
 - story: sad path 1
   steps:
   - intent: greet
@@ -37,8 +36,28 @@ stories:
   - intent: deny
   - action: utter_goodbye
   - action: action_hello_world
-  
-- story: how can I help the environment
+
+- story: entertainment book path 
   steps:
-  - intent: how_to_help_environment
-  - action: utter_how_to_help_environment
+  - intent: favourite_book
+  - action: utter_favourite_book
+  - action: action_hello_world
+  - intent: book_response_question
+  - action: utter_favourite_book_resp
+  - action: action_hello_world
+  
+- story: food choice
+  steps:
+  - intent: favourite_food
+  - action: utter_favourite_food
+  - action: action_hello_world
+  - intent: food_response
+  - action: utter_food_response
+  - action: action_hello_world
+
+- story: music choice 
+  steps:
+  - intent: favourite_music
+  - action: utter_favourite_music
+  - intent: music_reply
+  - action: utter_music_reply
