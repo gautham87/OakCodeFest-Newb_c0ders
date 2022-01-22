@@ -25,7 +25,7 @@ Fact_list = ["The average North American uses 700 lbs. of paper a year. This equ
 class ActionHelloWorld(Action):
 #
      def name(self) -> Text:
-#         return "action_hello_world"
+        return "action_hello_world"
 #
      def run(self, dispatcher: CollectingDispatcher,
              tracker: Tracker,
