@@ -6,25 +6,34 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_hello_world
   - intent: mood_great
   - action: utter_happy
+  - action: action_hello_world
+
 
 - story: sad path 1
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_hello_world
   - intent: mood_unhappy
   - action: utter_cheer_up
+  - action: action_hello_world
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
+  - action: action_hello_world
 
 - story: sad path 2
   steps:
   - intent: greet
   - action: utter_greet
+  - action: action_hello_world
   - intent: mood_unhappy
   - action: utter_cheer_up
+  - action: action_hello_world
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+  - action: action_hello_world
