@@ -14,6 +14,11 @@ intents:
   - food_response
   - favourite_music
   - music_reply
+  - facts_are_interesting
+  - weather
+  - what_are_you_made_of
+  - age
+  - watch_yt
 
 actions:
   - action_hello_world
@@ -56,8 +61,24 @@ responses:
   utter_music_reply:
   - text: "That's great, I really wish I could enjoy music like you humans do."
 
-  
+  utter_facts_are_interesting:
+  - text: "Some of these facts are from here : https://www.ecofriendlyhabits.com/environmental-facts/ . "
+
+  utter_weather:
+  - text: "I dont know the weather since i live inside a computer,but i do hope that you are having a pleasant weather"
+
+  utter_what_are_you_made_of:
+  - text: "I am made from rasa, python and yet another markup language :) "
+
+  utter_age:
+  - text: "I'm immortal. I lost track of my age a long time ago. "
+
+  utter_watch_yt:
+  - text: "While i dont watch youtube im sure it has some good content"
+
+
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
