@@ -14,7 +14,7 @@ from rasa_sdk.executor import CollectingDispatcher
 # This variable contains the all the facts the chatbot will use
 Fact_list = ["The average North American uses 700 lbs. of paper a year. This equals approximately 465 trees per person, just for paper!", "A glass bottle will take 40,000 years to decompose if it’s not recycled.",
              "Recycling a single aluminium can will save enough electricity to power a TV for three hours.", "Recycling a single glass bottle will save enough energy to power a light bulb for four hours.",
-             "The Earth’s surface is 70% water, but many people go without access to fresh water every day.", "Turning the faucet off when you’re brushing your teeth and taking quicker showers will use less water and leave more for others to use.",
+             "The Earth’s surface is 70% water, but many people go without access to fresh water every day.",
              "Turning your home’s thermostat down by a single degree can save your family 8% in heating costs.", "Paper bags are not really better than plastic bags. Approximately 14 million tress are cut down each year for paper bags. Remember to use your cloth bags!",
              "Around 15% of the carbon released in the environment is due to deforestation and change in the use of land.", "The golden Toad is the first species to go extinct due to climate change.",
              "Vehicles like cars and trucks contribute to 20% of carbon emissions in the United States.", " Climate change enhances the spread of pests that causes life-threatening diseases like dengue, malaria, Lyme disease etc.",
