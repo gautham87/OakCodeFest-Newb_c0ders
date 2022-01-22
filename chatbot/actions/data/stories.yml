@@ -61,3 +61,33 @@ stories:
   - action: utter_favourite_music
   - intent: music_reply
   - action: utter_music_reply
+
+- story: interesting facts path 
+  steps: 
+  - intent: facts_are_interesting
+  - action: utter_facts_are_interesting
+
+- story: weather path 
+  steps:
+  - intent: weather
+  - action: utter_weather
+  - action : action_hello_world
+
+- story: what are you made of path
+  steps:
+  - intent: what_are_you_made_of
+  - action: utter_what_are_you_made_of
+  - action: action_hello_world
+
+- story: age
+  steps:
+  - intent: age
+  - action: utter_age
+  - action: action_hello_world
+
+- story: watch_youtube
+  steps:
+  - intent : watch_yt
+  - action: utter_watch_yt
+  - action: action_hello_world
+
