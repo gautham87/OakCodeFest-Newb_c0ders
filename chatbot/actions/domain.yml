@@ -19,6 +19,10 @@ intents:
   - what_are_you_made_of
   - age
   - watch_yt
+  - cook_food
+  - Where_can_you_be_used
+  - nudge_theory
+  - help environment
 
 actions:
   - action_hello_world
@@ -76,9 +80,20 @@ responses:
   utter_watch_yt:
   - text: "While i dont watch youtube im sure it has some good content"
 
+  utter_cook_food:
+  - text: "While i dont know how to cook food, im sure i can whip up something tasty made out of binary if i tried."
+
+  utter_Where_can_you_be_used:
+  - text: "I can be integrated with most of the platforms such as telegram, twitter etc."
+
+  utter_nudge_theory:
+  - text: "Nudge theory is a concept in behavioral economics, political theory, and behavioral sciences that proposes positive reinforcement and indirect suggestions as ways to influence the behavior and decision-making of groups or individuals."
+
+  utter_help environment:
+  - text: "Check out the link below to find 8 simple ways to do your part and help the environemnt: https://www.fastweb.com/student-life/articles/eight-simple-ways-to-help-the-environment . Here is another link : https://greatist.com/happiness/ways-help-environment#packaging"
+
 
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
