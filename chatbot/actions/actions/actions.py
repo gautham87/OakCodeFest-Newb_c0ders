@@ -54,9 +54,7 @@ class ActionHelloWorld(Action):
             dispatcher.utter_message(text=chosen_phrase)
             fact_list.remove(chosen_phrase)
 
-        else:
-            dispatcher.utter_message(text=" ")
-
+        
 
 
         return []
