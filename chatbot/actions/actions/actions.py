@@ -49,7 +49,7 @@ class ActionHelloWorld(Action):
              "There is six times as much plastic in the oceans than there is plankton.", "Noise pollution from ships causes cellular damage to invertebrates.", "From 2030-2050, climate change will cause 250,000 deaths a year.",
              "Every tonne of paper recycled saves 17 trees"]
 
-            fact_index = random.randint(0, len(fact_list))
+            fact_index = random.randint(0, len(fact_list)-1)
             chosen_phrase = fact_list[fact_index]
             dispatcher.utter_message(text=chosen_phrase)
             fact_list.remove(chosen_phrase)
