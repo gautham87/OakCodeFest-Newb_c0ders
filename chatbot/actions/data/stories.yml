@@ -91,3 +91,26 @@ stories:
   - action: utter_watch_yt
   - action: action_hello_world
 
+
+- story: can you cook food path 
+  steps:
+  - intent: cook_food
+  - action: utter_cook_food
+  - action: action_hello_world
+
+- story: where can you be added path 
+  steps:
+    - intent: Where_can_you_be_used
+    - action: utter_Where_can_you_be_used
+    - action: action_hello_world
+
+- story: What is nudge theory path
+  steps:
+    - intent: nudge_theory
+    - action: utter_nudge_theory
+    - action: action_hello_world
+
+- story: Help_environment
+  steps:
+    - intent: help environment
+    - action: utter_help environment
