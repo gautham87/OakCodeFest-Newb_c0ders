@@ -212,3 +212,35 @@ nlu:
     - Would you like to watch youtube?
     - What do you say about youtube?
 
+- intent: cook_food
+  examples: |
+    - Can you cook food?
+    - Can u make food?
+    - Do you know how to make food?
+    - Are you learning to cook?
+    - Will u cook for me?
+
+- intent: Where_can_you_be_used
+  examples: |
+    - Where can you be integrated?
+    - Where can we add you?
+    - Which social medias can you be added?
+    - Can you be added to any social medias?
+    - Where can you be added?
+
+- intent: nudge_theory
+  examples: |
+    - What is nudge theory?
+    - Can you please explain what nudge theory is?
+    - Is nudge theory important
+    - What exactly is nudge theory?
+    - Could you define nudge theory?
+
+- intent: help environment
+  examples: |
+    - How can i help the environment?
+    - Is it possible to help the environment?
+    - I want to help the environment. How can i do that?
+    - The environment is what i want to help
+
+
